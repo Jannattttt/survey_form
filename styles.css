@@ -50,8 +50,8 @@ body {
   }
   
   label {
-    font-weight: 700;
-    display: block;
+    font-weight: medium;
+    /* display: block; */
     margin-bottom: 0.5rem;
   }
   
