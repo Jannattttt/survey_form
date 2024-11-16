@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Project</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Fixed Header -->
+  <div id="header">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">We appreciate your time to help us improve our website</p>
+  </div>
+
+  <!-- Form Container -->
+  <div id="form-container">
+    <form id="survey-form">
+      <label id="name-label">Enter your name:</label>
+      <input id="name" type="text" placeholder="Jane Doe" required><br>
+
+      <label id="email-label">Enter your email:</label>
+      <input id="email" type="email" placeholder="abcd@gmail.com" required><br>
+
+      <label id="number-label">Enter your age:</label>
+      <input id="number" type="number" min="1" max="120" placeholder="0"><br>
+
+      <p>Which category do you fit in?</p>
+      <select id="dropdown">
+        <option>Select one</option>
+        <option>I am a worker</option>
+        <option>I am a student</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select><br>
+
+      <p>How did you find us?</p>
+      <input type="radio" value="referer" name="referer" checked>
+      <label>Through a friend or family</label><br>
+      <input type="radio" value="referer" name="referer">
+      <label>On social media</label><br>
+
+      <p>What do you think about our customer service?</p>
+      <input type="checkbox" value="service" name="service">
+      <label>You have great customer service!</label><br>
+      <input type="checkbox" value="service" name="service">
+      <label>Your customer service is terrible!</label><br>
+      <input type="checkbox" value="service" name="service">
+      <label>It depends on who is there.</label>
+
+      <p>Tell us something</p>
+      <textarea></textarea><br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
